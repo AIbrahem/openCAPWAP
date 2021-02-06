@@ -18,7 +18,9 @@ I'm currently using openCAPWAP for a project I'm working on, however because it'
 The following is the list of items I've noticed to far that need some working, I'll try to keep this list updated as I find/fix any items.
 
 ~~1. Build on Ubuntu 20.04~~
+
 2. Update to GCC v10.x.x
+
 3. Update to use libssl 1.1.x
 
 ## Requirements
