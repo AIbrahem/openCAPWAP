@@ -11,6 +11,16 @@ International Journal of Network Management 2016, Volume 26, Issue 6, Pages 537â
 [ResearchGate](https://www.researchgate.net/publication/307913953_OpenCAPWAP_v20_the_new_open-source_implementation_of_the_CAPWAP_protocol_OPENCAPWAP_V20)
 
 
+## Update
+
+I'm currently using openCAPWAP for a project I'm working on, however because it's no longer being maintained by its original author I'll try to get it updated.
+
+The following is the list of items I've noticed to far that need some working, I'll try to keep this list updated as I find/fix any items.
+
+~~1. Build on Ubuntu 20.04~~
+2. Update to GCC v10.x.x
+3. Update to use libssl 1.1.x
+
 ## Requirements
 
 This version has been tested on Linux Debian distro 32-bit.
@@ -18,7 +28,7 @@ You need to install the following libraries:
 ```
 libnl-3-dev
 libnl-3-genl-dev
-libssl-dev
+libssl1.0.2-dev
 ```
 
 In order to run the WTP software, you must have a wireless card with AP mode available (check with iw)

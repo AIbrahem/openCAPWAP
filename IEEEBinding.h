@@ -22,6 +22,9 @@
  *                                                                                         *
  *******************************************************************************************/
 
+#ifndef HEADER_IEEE_BINDING_H
+#define HEADER_IEEE_BINDING_H
+
 /* ********* DEFINE ********* */
 #define ETH_ALEN 6
 /*
@@ -638,3 +641,5 @@ CWBool CW80211SetAssociationID(short int * assID);
 CWBool CW80211ParseAssociationResponse(char * frame, struct CWFrameAssociationResponse * assocResponse);
 CWBool CW80211ParseDataFrameToDS(char * frame, struct CWFrameDataHdr * dataFrame);
 CWBool CW80211ParseDataFrameFromDS(char * frame, struct CWFrameDataHdr * dataFrame);
+
+#endif /* !HEADER_IEEE_BINDING_H */
